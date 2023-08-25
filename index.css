@@ -590,7 +590,7 @@ footer .footer-cont .footer-col4 form input[type=submit] {
 }
 #toggle:checked ~ .menu {
   display: flex;
-  width: 200%;
+  width: 100%;
   justify-content: center;
   align-items: center;
   flex-flow: column;
@@ -598,7 +598,7 @@ footer .footer-cont .footer-col4 form input[type=submit] {
 
 #toggle:checked ~ .leng {
   display: flex;
-  width: 200%;
+  width: 100%;
   justify-content: center;
   align-items: center;
   flex-flow: column;
