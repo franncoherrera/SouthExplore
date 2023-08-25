@@ -220,21 +220,21 @@ header {
     }
 
     .ciu-content:nth-child(1) {
-      background-image: url(/imagenes/7.jpg);
+      background-image: url(imagenes/7.jpg);
     }
 
     .ciu-content:nth-child(2) {
-      background-image: url(/imagenes/8.jpg);
+      background-image: url(imagenes/8.jpg);
 
     }
 
     .ciu-content:nth-child(3) {
-      background-image: url(/imagenes/9.jpg);
+      background-image: url(imagenes/9.jpg);
 
     }
 
     .ciu-content:nth-child(4) {
-      background-image: url(/imagenes/ny.jpg);
+      background-image: url(imagenes/ny.jpg);
 
     }
 
@@ -707,6 +707,29 @@ footer {
 
 }
 
+@media only screen and (max-width: 700px){
+  header{
+    padding: 0px;
+  }
+  .cont-ciudades {
+    padding: 5px;
+  }
+  .cont-servicios{
+    .serv-titulo{
+      h1{
+        width: auto;
+      }
+    }
+  }
+  .cont-city .city-info .city-text .city-opc{
+    display: flex;
+    flex-flow: column;
+  }
+  .cont-servicios .serv-lista .serv-cont p{
+    padding-left: 0px;
+    padding-top: 15px;
+  }
+}
 
 #toggle:checked~.menu {
   display: flex;

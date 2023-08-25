@@ -553,6 +553,25 @@ footer .footer-cont .footer-col4 form input[type=submit] {
     width: 100%;
   }
 }
+@media only screen and (max-width: 700px) {
+  header {
+    padding: 0px;
+  }
+  .cont-ciudades {
+    padding: 5px;
+  }
+  .cont-servicios .serv-titulo h1 {
+    width: auto;
+  }
+  .cont-city .city-info .city-text .city-opc {
+    display: flex;
+    flex-flow: column;
+  }
+  .cont-servicios .serv-lista .serv-cont p {
+    padding-left: 0px;
+    padding-top: 15px;
+  }
+}
 #toggle:checked ~ .menu {
   display: flex;
   width: 200%;
