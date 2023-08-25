@@ -1,4 +1,4 @@
 # SOUTH EXPLORE
 
 
-Demo:--> https://franncoherrera.github.io/SouthExplore/ <--
+Demo: https://franncoherrera.github.io/SouthExplore/ 
