@@ -691,43 +691,77 @@ footer {
   /////fin servicios
 
   /// footer
-  
-  footer .footer-cont{
+
+  footer .footer-cont {
     flex-flow: column;
-    .footer-col1{
+
+    .footer-col1 {
       width: 100%;
     }
-    .footer-col3{
+
+    .footer-col3 {
       width: 100%;
     }
-    .footer-col2{
+
+    .footer-col2 {
       width: 100%;
     }
   }
 
 }
 
-@media only screen and (max-width: 700px){
-  header{
+@media only screen and (max-width: 700px) {
+  header {
     padding: 0px;
   }
+
   .cont-ciudades {
     padding: 5px;
   }
-  .cont-servicios{
-    .serv-titulo{
-      h1{
+
+  .cont-servicios {
+    .serv-titulo {
+      h1 {
         width: auto;
       }
     }
   }
-  .cont-city .city-info .city-text .city-opc{
-    display: flex;
-    flex-flow: column;
+
+  .cont-city .city-info {
+    padding: 0px 60px;
+
+    .city-text {
+      .city-opc {
+        display: flex;
+        flex-flow: column;
+      }
+    }
   }
-  .cont-servicios .serv-lista .serv-cont p{
-    padding-left: 0px;
-    padding-top: 15px;
+
+  .cont-servicios {
+    padding: 0px 60px;
+
+    .serv-titulo {
+      margin-bottom: 40px;
+    }
+
+    .serv-lista {
+      .serv-cont p {
+        padding-left: 0px;
+        padding-top: 15px;
+        margin-bottom: 40px;
+      }
+    }
+  }
+
+  footer {
+    padding: 40px 40px;
+
+    .footer-cont {
+      .footer-col4 {
+        width: 100%;
+      }
+    }
   }
 }
 

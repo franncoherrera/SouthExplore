@@ -563,13 +563,29 @@ footer .footer-cont .footer-col4 form input[type=submit] {
   .cont-servicios .serv-titulo h1 {
     width: auto;
   }
+  .cont-city .city-info {
+    padding: 0px 60px;
+  }
   .cont-city .city-info .city-text .city-opc {
     display: flex;
     flex-flow: column;
   }
+  .cont-servicios {
+    padding: 0px 60px;
+  }
+  .cont-servicios .serv-titulo {
+    margin-bottom: 40px;
+  }
   .cont-servicios .serv-lista .serv-cont p {
     padding-left: 0px;
     padding-top: 15px;
+    margin-bottom: 40px;
+  }
+  footer {
+    padding: 40px 40px;
+  }
+  footer .footer-cont .footer-col4 {
+    width: 100%;
   }
 }
 #toggle:checked ~ .menu {
