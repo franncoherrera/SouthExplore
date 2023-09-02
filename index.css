@@ -445,6 +445,7 @@ footer .footer-cont .footer-col4 form input[type=submit] {
   header {
     height: -moz-fit-content;
     height: fit-content;
+    padding: 0px;
   }
   header nav {
     flex-flow: column;
