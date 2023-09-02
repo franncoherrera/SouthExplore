@@ -326,8 +326,8 @@ header .flecha-head img {
   width: 33%;
   position: relative;
 }
-.cont-servicios .serv-lista .serv-cont img {
-  width: 85px;
+.cont-servicios .serv-lista .serv-cont svg {
+  font-size: 85px;
   position: absolute;
   top: 0;
   left: 0;
@@ -362,8 +362,8 @@ footer .footer-cont .footer-col1 .footer-info {
   display: flex;
   flex-flow: row;
 }
-footer .footer-cont .footer-col1 .footer-info img {
-  width: 25px;
+footer .footer-cont .footer-col1 .footer-info svg {
+  font-size: 25px;
   height: 25px;
   margin-right: 10px;
   filter: grayscale(1) invert(1);
@@ -581,8 +581,8 @@ footer .footer-cont .footer-col4 form input[type=submit] {
     padding-top: 15px;
     margin-bottom: 40px;
   }
-  .cont-servicios .serv-lista .serv-cont img {
-    width: 60px;
+  .cont-servicios .serv-lista .serv-cont svg {
+    font-size: 60px;
   }
   footer {
     padding: 40px 40px;

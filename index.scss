@@ -404,8 +404,8 @@ header {
       width: 33%;
       position: relative;
 
-      img {
-        width: 85px;
+      svg {
+        font-size: 85px;
         position: absolute;
         top: 0;
         left: 0;
@@ -452,8 +452,8 @@ footer {
         display: flex;
         flex-flow: row;
 
-        img {
-          width: 25px;
+        svg {
+          font-size: 25px;
           height: 25px;
           margin-right: 10px;
           -webkit-filter: grayscale(1) invert(1);
@@ -755,8 +755,8 @@ footer {
           margin-bottom: 40px;
         }
 
-        img {
-          width: 60px;
+        svg {
+          font-size: 60px;
         }
       }
 
