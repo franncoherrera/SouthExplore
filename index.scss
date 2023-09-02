@@ -727,13 +727,15 @@ footer {
     }
   }
 
-  .cont-city .city-info {
-    padding: 0px 60px;
+  .cont-city {
+    .city-info {
+      padding: 0px 60px;
 
-    .city-text {
-      .city-opc {
-        display: flex;
-        flex-flow: column;
+      .city-text {
+        .city-opc {
+          display: flex;
+          flex-flow: column;
+        }
       }
     }
   }
@@ -746,11 +748,19 @@ footer {
     }
 
     .serv-lista {
-      .serv-cont p {
-        padding-left: 0px;
-        padding-top: 15px;
-        margin-bottom: 40px;
+      .serv-cont {
+        p {
+          padding-left: 0px;
+          padding-top: 15px;
+          margin-bottom: 40px;
+        }
+
+        img {
+          width: 60px;
+        }
       }
+
+
     }
   }
 

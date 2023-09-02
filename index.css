@@ -581,6 +581,9 @@ footer .footer-cont .footer-col4 form input[type=submit] {
     padding-top: 15px;
     margin-bottom: 40px;
   }
+  .cont-servicios .serv-lista .serv-cont img {
+    width: 60px;
+  }
   footer {
     padding: 40px 40px;
   }
